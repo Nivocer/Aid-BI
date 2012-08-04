@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Chart" id="1" x="130" y="155" width="251" height="156" measuredWidth="251" measuredHeight="156" chartType="column"/>
+  <widgets xsi:type="model:Text" id="2" x="100" y="155" text="100M" measuredWidth="27" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="3" x="100" y="219" text="50M" measuredWidth="21" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="4" x="100" y="285" text="10M" measuredWidth="21" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="6" x="150" y="312" text="2007" measuredWidth="24" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="7" x="200" y="312" text="2008" measuredWidth="24" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="8" x="250" y="312" text="2009" measuredWidth="24" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="9" x="300" y="312" text="2010" measuredWidth="24" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="10" x="347" y="312" text="2011" measuredWidth="24" measuredHeight="13">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="100" y="129" text="Budget (committed, disbursed)" measuredWidth="202" measuredHeight="24">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="237"/>
+  </vRuler>
+  <font size="12px"/>
+</model:Screen>

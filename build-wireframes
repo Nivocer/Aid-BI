@@ -1,0 +1,11 @@
+#! /bin/sh
+# Batch export of all WireframeSketcher stories to HTML
+#
+# Assumptions:
+# - You have Eclipse and WireframeSketcher installed
+# - The executable 'eclipse' is in your path
+# - Your project directory is directly under your Eclipse workspace directory
+#
+# See also: http://wireframesketcher.com/help/help.html#exporting_your_work/command_line
+
+eclipse -application com.wireframesketcher.ui.screenExport -data .. -source documentation/wireframes/ -dest doc/_attachments/wireframes/ -noSplash -format HTML

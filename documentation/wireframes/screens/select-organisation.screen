@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Master" id="17" x="160" y="66" measuredWidth="281" measuredHeight="196">
+    <screen xsi:type="model:Screen" href="../../../assets/barchart.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="5" y="10" text="Find organisation" measuredWidth="196" measuredHeight="36">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="19" x="458" y="281" measuredWidth="381" measuredHeight="177">
+    <screen xsi:type="model:Screen" href="../../../assets/timeline.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="850" y="59" measuredWidth="171" measuredHeight="206">
+    <widgets xsi:type="model:Group" id="22" width="171" height="206" text="Country" measuredWidth="171" measuredHeight="206">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="23" y="16" text="[x] Ethiopia (6)&#xA;[x] Kenya (4)&#xA;[ ] DRC (5)&#xA;[ ] Tanzania (3)&#xA;[ ] Uganda (1)&#xA;[ ] Zambia (4)&#xA;" measuredWidth="94" measuredHeight="190" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="94" height="31" text="[x] Ethiopia (6)"/>
+      <items x="0" y="33" width="94" height="31" text="[x] Kenya (4)"/>
+      <items x="0" y="64" width="94" height="31" text="[ ] DRC (5)"/>
+      <items x="0" y="95" width="94" height="31" text="[ ] Tanzania (3)"/>
+      <items x="0" y="126" width="94" height="31" text="[ ] Uganda (1)"/>
+      <items x="0" y="157" width="94" height="31" text="[ ] Zambia (4)"/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="24" x="154" y="6" height="200" measuredWidth="17" measuredHeight="200"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="25" x="850" y="273" measuredWidth="171" measuredHeight="189">
+    <widgets xsi:type="model:Group" id="26" width="171" height="189" text="Funded by" measuredWidth="171" measuredHeight="189">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="27" y="16" text="[x] Fund ABC&#xA;[x] Donor X&#xA;[ ] Foundation Z&#xA;[ ] Gov Q&#xA;" measuredWidth="99" measuredHeight="128" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="99" height="31" text="[x] Fund ABC"/>
+      <items x="0" y="33" width="99" height="31" text="[x] Donor X"/>
+      <items x="0" y="64" width="99" height="31" text="[ ] Foundation Z"/>
+      <items x="0" y="95" width="99" height="31" text="[ ] Gov Q"/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="28" x="154" y="6" height="183" measuredWidth="17" measuredHeight="183"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="29" x="5" y="67" width="136" measuredWidth="136" measuredHeight="194">
+    <widgets xsi:type="model:Group" id="30" width="136" height="194" text="Type of activity" measuredWidth="136" measuredHeight="194">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="31" y="16" width="81" text="[x] Implementing&#xA;[x] Reporting&#xA;[ ] Funding&#xA;[ ] Extending&#xA;" measuredWidth="81" measuredHeight="128" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="81" height="31" text="[x] Implementing"/>
+      <items x="0" y="33" width="81" height="31" text="[x] Reporting"/>
+      <items x="0" y="64" width="81" height="31" text="[ ] Funding"/>
+      <items x="0" y="95" width="81" height="31" text="[ ] Extending"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="32" x="160" y="269" measuredWidth="216" measuredHeight="179">
+    <screen xsi:type="model:Screen" href="../../../assets/sectors.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="33" x="850" y="475" measuredWidth="171" measuredHeight="201">
+    <widgets xsi:type="model:Group" id="34" width="171" height="201" text="Working with" measuredWidth="171" measuredHeight="201">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="35" y="16" text="[x] NGO Abc&#xA;[x] Org Zyx&#xA;[ ] Gov QR&#xA;[ ] Company IR&#xA;[ ] University Ghi&#xA;" measuredWidth="102" measuredHeight="159" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="102" height="31" text="[x] NGO Abc"/>
+      <items x="0" y="33" width="102" height="31" text="[x] Org Zyx"/>
+      <items x="0" y="64" width="102" height="31" text="[ ] Gov QR"/>
+      <items x="0" y="95" width="102" height="31" text="[ ] Company IR"/>
+      <items x="0" y="126" width="102" height="31" text="[ ] University Ghi"/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="36" x="154" y="6" height="195" measuredWidth="17" measuredHeight="195"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="160" y="458" width="677" measuredWidth="677" measuredHeight="107" link="organisation.screen">
+    <widgets xsi:type="model:Table" id="38" y="23" width="677" text="Identifier,Name, Description&#xA;Oxfam-NL,Oxfam Novib,&#x9;Dutch member of Oxfam network&#xA;Hivos, Hivos,&#xA;DGIS, Dutch Ministry of Foreign Affairs, Directoraat-Generaal Internationale Samenwerking&#xA;" measuredWidth="677" measuredHeight="84" alternative="#eeeeee">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="39" width="98" text="Organisations" measuredWidth="98" measuredHeight="24">
+      <font size="24px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="43" x="5" y="272" width="136" measuredWidth="136" measuredHeight="181">
+    <widgets xsi:type="model:Group" id="44" width="136" height="181" text="Sectors" measuredWidth="136" measuredHeight="181">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="45" y="16" width="71" text="[x] Theme Xyz&#xA;[x] Topic AB&#xA;[x] Sector QRS&#xA;[ ] Subject Ghi" measuredWidth="71" measuredHeight="128" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="71" height="31" text="[x] Theme Xyz"/>
+      <items x="0" y="33" width="71" height="31" text="[x] Topic AB"/>
+      <items x="0" y="64" width="71" height="31" text="[x] Sector QRS"/>
+      <items x="0" y="95" width="71" height="31" text="[ ] Subject Ghi"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Image" id="46" x="458" y="67" width="379" height="194" measuredWidth="379" measuredHeight="194" src="../../../assets/worldmap-markers.png"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

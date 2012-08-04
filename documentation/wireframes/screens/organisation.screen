@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="5" x="5" y="10" text="Profile &quot;Organisation Q&quot;" measuredWidth="270" measuredHeight="36">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="20" x="850" y="59" measuredWidth="171" measuredHeight="206">
+    <widgets xsi:type="model:Group" id="1" width="171" height="206" text="Country" measuredWidth="171" measuredHeight="206">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="3" y="16" text="[x] Ethiopia (6)&#xA;[x] Kenya (4)&#xA;[ ] DRC (5)&#xA;[ ] Tanzania (3)&#xA;[ ] Uganda (1)&#xA;[ ] Zambia (4)&#xA;" measuredWidth="94" measuredHeight="190" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="94" height="31" text="[x] Ethiopia (6)"/>
+      <items x="0" y="33" width="94" height="31" text="[x] Kenya (4)"/>
+      <items x="0" y="64" width="94" height="31" text="[ ] DRC (5)"/>
+      <items x="0" y="95" width="94" height="31" text="[ ] Tanzania (3)"/>
+      <items x="0" y="126" width="94" height="31" text="[ ] Uganda (1)"/>
+      <items x="0" y="157" width="94" height="31" text="[ ] Zambia (4)"/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="12" x="154" y="6" height="200" measuredWidth="17" measuredHeight="200"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="850" y="273" height="180" measuredWidth="171" measuredHeight="180">
+    <widgets xsi:type="model:Group" id="13" width="171" height="180" text="Funded by" measuredWidth="171" measuredHeight="180">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="14" y="15" height="121" text="[x] Fund ABC&#xA;[x] Donor X&#xA;[ ] Foundation Z&#xA;[ ] Gov Q&#xA;" measuredWidth="99" measuredHeight="121" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="99" height="31" text="[x] Fund ABC"/>
+      <items x="0" y="33" width="99" height="31" text="[x] Donor X"/>
+      <items x="0" y="64" width="99" height="31" text="[ ] Foundation Z"/>
+      <items x="0" y="95" width="99" height="31" text="[ ] Gov Q"/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="15" x="154" y="5" height="174" measuredWidth="17" measuredHeight="174"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="24" x="850" y="475" measuredWidth="171" measuredHeight="201">
+    <widgets xsi:type="model:Group" id="25" width="171" height="201" text="Working with" measuredWidth="171" measuredHeight="201">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="26" y="16" text="[x] NGO Abc&#xA;[x] Org Zyx&#xA;[ ] Gov QR&#xA;[ ] Company IR&#xA;[ ] University Ghi&#xA;" measuredWidth="102" measuredHeight="159" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="102" height="31" text="[x] NGO Abc"/>
+      <items x="0" y="33" width="102" height="31" text="[x] Org Zyx"/>
+      <items x="0" y="64" width="102" height="31" text="[ ] Gov QR"/>
+      <items x="0" y="95" width="102" height="31" text="[ ] Company IR"/>
+      <items x="0" y="126" width="102" height="31" text="[ ] University Ghi"/>
+    </widgets>
+    <widgets xsi:type="model:VScrollbar" id="27" x="154" y="6" height="195" measuredWidth="17" measuredHeight="195"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="37" x="160" y="458" width="677" measuredWidth="677" measuredHeight="287">
+    <widgets xsi:type="model:Table" id="28" y="23" width="677" text="Identifier,Title, Description&#xA;NL-1-PPR-20775,PSNP Fase 3,&#x9;Productive Safety Net&#xA;NL-1-PPR-12409, ADD SNV/Ethiopia: BOAM,&#x9;Support to Business Organisation and their Access to Markets in Ethiopia&#xA;NL-1-PPR-21042,ADD_PUBLIC PRIVATE D&amp;P,&#x9;PUBLIC PRIVATE DIALOGUE &amp; PARTNERSHIP&#xA;NL-1-PPR-23436,UNDP Cap-Net Phase 3,&#x9;UNDP Cap-Net Phase 3: Capacity Building for Sustainable Development of Water Resources in a context of Changing Climate&#xA;NL-1-PPR-23409,tournee nationale du droit,&#x9;Steun aan de promotie van mensenrechten en democratische rechten in DRC&#x9;&#xA;NL-1-PPR-10470,&#x9;TIR Porto Romano,&#x9;Clean up of the Porto Romano hot spot&#xA;NL-1-PPR-23422,Sustaining Dev. Regimes Africa,&#x9;Initiating and sustaining developmental regimes in Africa&#x9;&#xA;NL-1-PPR-22077,Support to REACH(II),&#x9;Continued support to REACH (II) 2010-2013&#x9;&#xA;NL-1-PPR-23432,Som. refugees in Kenya,&#x9;Verbetering leefomstandigheden Som. vluchtelingen in Kenia&#x9;&#xA;NL-1-PPR-8016,SKO TF WB-EMP,&#x9;Trust Fund World Bank Education Modernisation Project&#x9;&#xA;NL-1-PPR-23446,SJO INTERAMERICAN HUMAN RIGHTS,&#x9;Verbeteren van kennis over Interamerikaans mensenrechtensysteem in Midden Amerika&#x9;&#xA;NL-1-PPR-9709,SAA_BEDP,&#x9;Basic Education Development Project&#x9;" measuredWidth="677" measuredHeight="264" alternative="#eeeeee">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="29" width="69" text="Activities" measuredWidth="69" measuredHeight="24">
+      <font size="24px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="36" x="160" y="754" width="677" measuredWidth="677" measuredHeight="147">
+    <widgets xsi:type="model:Table" id="30" y="23" width="677" text="Title, Date&#xA;ResRapfiche2011-ADD-food_security_EN,2011&#xA;ResRap2011-2nd_version_Maputo-Social_protection,2011&#xA;ResRapfiche2010-Kampala-JLO-sector,2010&#xA;Resrepfiche2009-Kigali-education_new_version_(2),2009&#xA;Rapfiche2008-Kampala-JLO-sector,2008" measuredWidth="677" measuredHeight="124" alternative="#eeeeee">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="31" width="152" text="Documents" measuredWidth="152" measuredHeight="24">
+      <font size="24px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="5" y="475" width="136" measuredWidth="136" measuredHeight="181">
+    <widgets xsi:type="model:Group" id="39" width="136" height="181" text="Entities in documents" measuredWidth="136" measuredHeight="181">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="40" y="16" width="74" text="[x] City Abc&#xA;[x] Institution X&#xA;[x] Region Y&#xA;[ ] Subject Ghi" measuredWidth="74" measuredHeight="128" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="74" height="31" text="[x] City Abc"/>
+      <items x="0" y="33" width="74" height="31" text="[x] Institution X"/>
+      <items x="0" y="64" width="74" height="31" text="[x] Region Y"/>
+      <items x="0" y="95" width="74" height="31" text="[ ] Subject Ghi"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Note" id="41" x="525" y="811" text="Should link to document metadata&#xA;and/or document itself" measuredWidth="174" measuredHeight="36" annotation="true">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Note" id="42" x="411" y="675" text="Should link to activity record" measuredWidth="145" measuredHeight="23" annotation="true">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="43" x="160" y="66" measuredWidth="281" measuredHeight="196">
+    <screen xsi:type="model:Screen" href="../../../assets/barchart.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="44" x="459" y="279" measuredWidth="381" measuredHeight="177">
+    <screen xsi:type="model:Screen" href="../../../assets/timeline.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="45" x="5" y="67" width="136" measuredWidth="136" measuredHeight="194">
+    <widgets xsi:type="model:Group" id="46" width="136" height="194" text="Type of activity" measuredWidth="136" measuredHeight="194">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="47" y="16" width="81" text="[x] Implementing&#xA;[x] Reporting&#xA;[ ] Funding&#xA;[ ] Extending&#xA;" measuredWidth="81" measuredHeight="128" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="81" height="31" text="[x] Implementing"/>
+      <items x="0" y="33" width="81" height="31" text="[x] Reporting"/>
+      <items x="0" y="64" width="81" height="31" text="[ ] Funding"/>
+      <items x="0" y="95" width="81" height="31" text="[ ] Extending"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Master" id="48" x="160" y="269" measuredWidth="216" measuredHeight="179">
+    <screen xsi:type="model:Screen" href="../../../assets/sectors.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="49" x="5" y="272" width="136" measuredWidth="136" measuredHeight="181">
+    <widgets xsi:type="model:Group" id="50" width="136" height="181" text="Sectors" measuredWidth="136" measuredHeight="181">
+      <font size="19px"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="51" y="16" width="71" text="[x] Theme Xyz&#xA;[x] Topic AB&#xA;[x] Sector QRS&#xA;[ ] Subject Ghi" measuredWidth="71" measuredHeight="128" border="false" alpha="0">
+      <font size="19px"/>
+      <items x="0" y="2" width="71" height="31" text="[x] Theme Xyz"/>
+      <items x="0" y="33" width="71" height="31" text="[x] Topic AB"/>
+      <items x="0" y="64" width="71" height="31" text="[x] Sector QRS"/>
+      <items x="0" y="95" width="71" height="31" text="[ ] Subject Ghi"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Image" id="52" x="458" y="67" width="379" height="194" measuredWidth="379" measuredHeight="194" src="../../../assets/worldmap-markers.png"/>
+  <widgets xsi:type="model:Note" id="53" x="201" y="356" text="No pie chart widget available yet..." measuredWidth="175" measuredHeight="23" annotation="true">
+    <font size="19px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

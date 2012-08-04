@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Chart" id="1" x="108" y="305" width="143" height="156" measuredWidth="143" measuredHeight="156"/>
+  <widgets xsi:type="model:Text" id="2" x="35" y="305" text="Theme Xyz&#xA;Topic AB&#xA;Sector QRS" measuredWidth="54" measuredHeight="39">
+    <font size="19px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="35" y="282" text="Budget (sectors)" measuredWidth="112" measuredHeight="24">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
